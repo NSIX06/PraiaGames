@@ -53,13 +53,23 @@ nav a
     justify-content: space-between;
 }
 
-.local
+#area img
 {
-    width: 1400px;
-    height: 700px;
-    margin: 0;
+
+    width: 1445px;
+    height: 300px;
+    margin: 1%;
+    border: 0;
+    border-radius: 10px;
+    
     
 }
+
+p
+{
+    padding: 0,5% ;
+}
+
 
 #maior-evento
 {
@@ -154,13 +164,15 @@ article
 
 #art
 {
-   text-align: center;
-   align-content: space-around;
-   align-items:baseline;
-   justify-content: space-between;
-   margin: 0;
-   padding: 1%;
-
+    display: flex;
+    width: 28%;
+    padding: 1%;
+    text-align: center;
+    border-radius: 10px;
+    justify-content: space-between;
+    margin: 0;
+    font-size: 20px;
+    flex-direction: column;
 }
 
 
@@ -185,6 +197,12 @@ article
     color: #f1f1f1;
     border: 0;
     border-radius: 10px;
+    font-family: 'Inder';
+    font-size: 18px;
+    text-align: center;
+    align-items: center;
+    
+    
 }
 
 #programacao
@@ -193,13 +211,12 @@ article
     color: #493DD0;
     text-align: center;
     font-family: Inder;
-    font-size: 12px;
-    width: 200px;
-    
-    font-style: normal;
+    font-size: 15px;
+    width: 400px;
     text-align: center;
     border-radius: 0;
     border: 0;
+    
 }
 
 
