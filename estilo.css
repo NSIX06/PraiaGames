@@ -56,9 +56,18 @@ nav a
 #area img
 {
 
-    width: 1445px;
-    height: 300px;
+    width: 1400px;
+    height: 350px;
     margin: 1%;
+    border: 0;
+    border-radius: 10px;
+}
+
+#area 
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
     border: 0;
     border-radius: 10px;
     
@@ -116,7 +125,7 @@ article
     padding: 2% 1%;
     justify-content: space-around;
     border: 0;
-    border-radius: 10px;
+    border-radius: 12px;
 }
 
 .pales
@@ -126,7 +135,7 @@ article
     padding: 2% 1%;
     justify-content: space-around;
     border: 0;
-    border-radius: 10PX;
+    border-radius: 12PX;
 }
 
 .cosp
@@ -136,7 +145,7 @@ article
     padding: 2% 1%;
     justify-content: space-around;
     border: 0;
-    border-radius: 10px;
+    border-radius: 12px;
     
 }
 
